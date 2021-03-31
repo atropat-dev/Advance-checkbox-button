@@ -1,4 +1,4 @@
-# checkbox
+# switch checkbox
 Online Demo 
 http://hosseinmohammadi-dev.gigfa.com/Advance%20Ckeckbox%20button/
 
