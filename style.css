@@ -88,30 +88,58 @@ h1 {
   margin: 10px 0px 30px;
   text-align: center;
   font-size: 26px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 @media screen and (max-width: 1050px) {
-  .name{
+  .name {
     max-width: 200px;
   }
-  h1{
+  h1 {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 880px) {
-  .name{
+  .name {
     width: 100%;
     max-width: 90%;
     top: 50px;
   }
+  .one{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .name {
+    width: 100%;
+    max-width: 90%;
+    top: 50px;
+  }
+  .one{
+    width: 70%;
+  }
 }
 @media screen and (max-width: 488px) {
-  .name span{
+  .name span {
     font-size: 12px;
   }
-  h1{
+  h1 {
     font-size: 16px;
     max-width: 180px;
+  }
+  .one{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 488px) {
+  .name span {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 16px;
+    max-width: 180px;
+  }
+  .one{
+    width: 92%;
   }
 }
 /*---- END fu****ing shit code ----*/
@@ -134,9 +162,9 @@ label {
   font-size: 48px;
   font-weight: 600;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   align-items: center;
 }
 label:not(:last-child) {
@@ -165,19 +193,20 @@ i {
   outline: 0;
   display: block;
   width: 1em;
-  height: .5em;
+  height: 0.5em;
   position: relative;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background: #c9d6de;
   border-radius: 2em;
   padding: 2px;
   transition: all 0.2s ease;
 }
-i:after, i:before {
+i:after,
+i:before {
   position: relative;
   display: block;
   content: "";
