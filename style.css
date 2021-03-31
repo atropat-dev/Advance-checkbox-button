@@ -1,0 +1,194 @@
+/*----😂😂😂😂😂 this is fu****ing shit code and this code just for design ----*/
+/*---- this is fu****ing shit code and this code just for design ----*/
+/*---- this is fu****ing shit code and this code just for design ----*/
+/*---- this is fu****ing shit code and this code just for design ----*/
+/*---- this is fu****ing shit code and this code just for design ----*/
+body {
+  background-color: rgba(28, 3, 168, 0.09);
+  color: #212372d9;
+  display: flex;
+  font-family: roboto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.one {
+  position: relative;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  background-image: linear-gradient(#5219681c, #1b198811);
+}
+
+.circles {
+  display: flex;
+  justify-content: space-between;
+  width: 45px;
+  height: 10px;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+
+.circles span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.circle1 {
+  background-color: rgb(214, 16, 99);
+}
+
+.circle2 {
+  background-color: rgb(255, 116, 36);
+}
+
+.circle3 {
+  background-color: rgb(10, 209, 116);
+}
+
+.name {
+  position: absolute;
+  top: 4px;
+  padding: 5px;
+  box-shadow: 1px 1px 50px #503ab026;
+  border-radius: 1px;
+  max-width: 280px;
+}
+
+.name span {
+  font-size: 15px;
+  color: #3d3e84;
+  font-weight: 500;
+}
+
+.image img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 10px 0px 30px;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 1050px) {
+  .name{
+    max-width: 200px;
+  }
+  h1{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .name{
+    width: 100%;
+    max-width: 90%;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 488px) {
+  .name span{
+    font-size: 12px;
+  }
+  h1{
+    font-size: 16px;
+    max-width: 180px;
+  }
+}
+/*---- END fu****ing shit code ----*/
+/*---- END fu****ing shit code ----*/
+/*---- END fu****ing shit code ----*/
+/*---- 😂END fu****ing shit code😂 ----*/
+
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*----❤️❤️❤️ Use this code for button ❤️❤️❤️----*/
+
+label {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+i {
+  border-radius: 200px;
+  margin: 0 auto;
+  padding: 1px 2px 1px;
+  outline: 0;
+  width: 40px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  background: #f0f0f0;
+}
+
+i::after,
+i::before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+i:after {
+  background: #ffffff;
+}
+
+i::before {
+  display: none;
+}
+
+i:after {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+  left: 0;
+  box-shadow: 2px 2px 5px rgba(136, 136, 136, 0.39);
+}
+
+input:checked ~ i {
+  /* background: var(--secondary); */
+  /* background: var(--primary); you can use this for style , but I don't like it😂 */
+  background-color: rgb(33, 212, 102);
+  transition: all 0.8s;
+}
+
+input:checked ~ i:after {
+  left: 50%;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease-out;
+  box-shadow: -2px 5px 15px rgba(143, 143, 143, 0.301);
+}
