@@ -1,4 +1,4 @@
-# Advance-checkbox-button
+# checkbox
 Online Demo 
 http://hosseinmohammadi-dev.gigfa.com/Advance%20Ckeckbox%20button/
 
