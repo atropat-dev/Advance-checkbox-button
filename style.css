@@ -1,3 +1,80 @@
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*---- This is main code😂👍 ----*/
+/*----❤️❤️❤️ Use this code for button ❤️❤️❤️----*/
+
+label {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 600;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  align-items: center;
+}
+label:not(:last-child) {
+  margin-bottom: 40px;
+}
+label .l {
+  margin-left: 20px;
+}
+
+input {
+  opacity: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  z-index: -1;
+}
+input:checked ~ .switch-checkbox {
+  background: #29c233;
+}
+input:checked ~ .switch-checkbox:after {
+  left: 50%;
+  background: whitesmoke;
+}
+
+.switch-checkbox {
+  outline: 0;
+  display: block;
+  width: 1em;
+  height: 0.5em;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #c9d6de;
+  border-radius: 2em;
+  padding: 2px;
+  transition: all 0.2s ease;
+}
+.switch-checkbox:after,
+.switch-checkbox:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+.switch-checkbox:after {
+  left: 0;
+  border-radius: 50%;
+  background: #f0f5f9;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.164);
+}
+.switch-checkbox:before {
+  display: none;
+}
+
 /*----😂😂😂😂😂 this is fu****ing shit code and this code just for design ----*/
 /*---- this is fu****ing shit code and this code just for design ----*/
 /*---- this is fu****ing shit code and this code just for design ----*/
@@ -104,7 +181,7 @@ h1 {
     max-width: 90%;
     top: 50px;
   }
-  .one{
+  .one {
     width: 50%;
   }
 }
@@ -114,7 +191,7 @@ h1 {
     max-width: 90%;
     top: 50px;
   }
-  .one{
+  .one {
     width: 70%;
   }
 }
@@ -126,7 +203,7 @@ h1 {
     font-size: 16px;
     max-width: 180px;
   }
-  .one{
+  .one {
     width: 80%;
   }
 }
@@ -138,7 +215,7 @@ h1 {
     font-size: 16px;
     max-width: 180px;
   }
-  .one{
+  .one {
     width: 92%;
   }
 }
@@ -146,80 +223,3 @@ h1 {
 /*---- END fu****ing shit code ----*/
 /*---- END fu****ing shit code ----*/
 /*---- 😂END fu****ing shit code😂 ----*/
-
-/*---- This is main code😂👍 ----*/
-/*---- This is main code😂👍 ----*/
-/*---- This is main code😂👍 ----*/
-/*---- This is main code😂👍 ----*/
-/*---- This is main code😂👍 ----*/
-/*---- This is main code😂👍 ----*/
-/*---- This is main code😂👍 ----*/
-/*----❤️❤️❤️ Use this code for button ❤️❤️❤️----*/
-
-label {
-  display: flex;
-  text-transform: uppercase;
-  font-size: 48px;
-  font-weight: 600;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  align-items: center;
-}
-label:not(:last-child) {
-  margin-bottom: 40px;
-}
-label .l {
-  margin-left: 20px;
-}
-
-input {
-  opacity: 0;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  z-index: -1;
-}
-input:checked ~ i {
-  background: #29c233;
-}
-input:checked ~ i:after {
-  left: 50%;
-  background: whitesmoke;
-}
-
-i {
-  outline: 0;
-  display: block;
-  width: 1em;
-  height: 0.5em;
-  position: relative;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background: #c9d6de;
-  border-radius: 2em;
-  padding: 2px;
-  transition: all 0.2s ease;
-}
-i:after,
-i:before {
-  position: relative;
-  display: block;
-  content: "";
-  width: 50%;
-  height: 100%;
-}
-i:after {
-  left: 0;
-  border-radius: 50%;
-  background: #f0f5f9;
-  transition: all 0.3s ease;
-  box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.164);
-}
-i:before {
-  display: none;
-}
